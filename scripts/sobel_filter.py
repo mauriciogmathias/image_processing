@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 
-img = cv2.imread("images/lenna.png")
+img = cv2.imread("../images/lenna.png")
 
 #prepare a 11x11 averaging filter
 kernel = np.ones((11, 11), np.float32)/121
